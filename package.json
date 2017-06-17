@@ -1,7 +1,7 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "name": "jstransformer-php-runtime",
+  "version": "0.0.1",
+  "description": "PHP-Runtime support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -28,5 +28,11 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "merge-deep": "^3.0.0",
+    "php-core": "^1.1.0",
+    "php-runtime": "^0.5.1"
+  }
 }

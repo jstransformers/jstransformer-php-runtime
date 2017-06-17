@@ -1,1 +1,7 @@
-{}
+{
+  "core": {
+    "config": {
+      "display_errors": true
+    }
+  }
+}
