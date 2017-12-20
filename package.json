@@ -30,7 +30,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "extend-shallow": "^2.0.1",
+    "extend-shallow": "^3.0.0",
     "merge-deep": "^3.0.0",
     "php-core": "^1.1.0",
     "php-runtime": "^0.5.1"
