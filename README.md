@@ -15,7 +15,11 @@
 ## API
 
 ```js
+<<<<<<< HEAD
 var php-runtime = require('jstransformer')(require('jstransformer-php-runtime'));
+=======
+var foo = require('jstransformer')(require('jstransformer-foo'))
+>>>>>>> cfe5a281f20ff4ad36ec5e0f22903a7a5dec4ba9
 
 php-runtime.render('blah').body
 //=> 'blah'
