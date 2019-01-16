@@ -45,5 +45,6 @@ exports.render = function (str, options, locals) {
   if (stderr) {
     throw new Error(stderr)
   }
+
   return stdout
 }
