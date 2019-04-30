@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-php-runtime",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "PHP-Runtime support for JSTransformers.",
   "keywords": [
     "jstransformer"

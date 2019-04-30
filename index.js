@@ -5,8 +5,7 @@ const merge = require('merge-deep')
 const StreamPhpRuntime = require('php-runtime/src/stream')
 
 exports.name = 'php-runtime'
-// PHP Runtime does not quite qualify as straight-up PHP.
-// exports.inputFormats = ['php-runtime', 'php']
+exports.inputFormats = ['php-runtime', 'php']
 exports.outputFormat = 'html'
 
 const defaults = {
